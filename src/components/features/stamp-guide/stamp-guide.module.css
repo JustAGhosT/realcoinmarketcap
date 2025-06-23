@@ -1,0 +1,61 @@
+.quote {
+  border-left: 4px solid #3730a3;
+  padding-left: 1rem;
+  font-style: italic;
+  font-size: 1.125rem;
+  margin: 1.5rem 0;
+}
+
+.treasureList {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.treasureList li {
+  margin-bottom: 0.5rem;
+}
+
+.starList {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.starList li {
+  margin-bottom: 0.25rem;
+}
+
+.photographyList {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.photographyList li {
+  margin-bottom: 0.5rem;
+}
+
+.subheading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem 0;
+  color: #111827;
+}
+
+.proTip {
+  margin-top: 0.75rem;
+  color: #3730a3;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .quote {
+    font-size: 1rem;
+    padding-left: 0.75rem;
+  }
+
+  .subheading {
+    font-size: 1.125rem;
+  }
+}

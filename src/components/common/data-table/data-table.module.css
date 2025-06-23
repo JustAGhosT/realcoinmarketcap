@@ -1,0 +1,47 @@
+.tableWrapper {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #d1d5db;
+  background-color: white;
+}
+
+.thead {
+  background-color: #3730a3;
+  color: #fffbeb;
+}
+
+.th {
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.tbody {
+  background-color: white;
+}
+
+.td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.evenRow {
+  background-color: #f9fafb;
+}
+
+.evenRow .td {
+  background-color: #f9fafb;
+}
+
+@media (max-width: 640px) {
+  .th,
+  .td {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+  }
+}
